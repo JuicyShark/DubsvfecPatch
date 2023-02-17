@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/JobDef[defName="VFEC_Relax_Thermaebath"]/driverClass</xpath>
+					<value><driverClass>DubsvfecPatch.JobDriver_UseThermae</driverClass></value>
+				</li>
+			</operations>
+	</Operation>
+</Patch>
